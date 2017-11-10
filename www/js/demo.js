@@ -26,7 +26,7 @@ app.run(function($transform) {
 //
 app.config(function($routeProvider) {
   $routeProvider.when('/', {templateUrl: 'app/pages/home.html', reloadOnSearch: false});
-  $routeProvider.when('/scroll', {templateUrl: '/mobileAngularUi/demo/scroll.html', reloadOnSearch: false});
+  $routeProvider.when('/scroll', {templateUrl: 'app/pages/scroll.html', reloadOnSearch: false});
   $routeProvider.when('/toggle', {templateUrl: '/mobileAngularUi/demo/toggle.html', reloadOnSearch: false});
   $routeProvider.when('/tabs', {templateUrl: '/mobileAngularUi/demo/tabs.html', reloadOnSearch: false});
   $routeProvider.when('/accordion', {templateUrl: '/mobileAngularUi/demo/accordion.html', reloadOnSearch: false});
